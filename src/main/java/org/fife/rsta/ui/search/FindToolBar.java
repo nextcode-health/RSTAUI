@@ -130,8 +130,7 @@ public class FindToolBar extends JPanel {
         JPanel resultPanel = new JPanel(new BorderLayout(0, 0));
         resultPanel.setBorder(new EmptyBorder(5, 10, 0, 0));
 
-        resultLabel = new JLabel();
-
+        resultLabel = new JLabel(" ");
         resultPanel.add(resultLabel);
         overAllPanel.add(resultPanel);
         add(overAllPanel);
@@ -185,7 +184,7 @@ public class FindToolBar extends JPanel {
         panel.add(wholeWordCheckBox);
 
         markAllCheckBox = createCB("MarkAll");
-        panel.add(markAllCheckBox);
+//        panel.add(markAllCheckBox);
 
         return panel;
 

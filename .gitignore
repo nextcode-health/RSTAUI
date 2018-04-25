@@ -6,3 +6,5 @@ rstaui_*.zip
 .gradle
 build
 
+*.class
+out/
