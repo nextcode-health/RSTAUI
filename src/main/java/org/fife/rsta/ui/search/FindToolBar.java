@@ -155,7 +155,7 @@ public class FindToolBar extends JPanel {
      *
      * @param text
      */
-    public void updateResultLabel(String text) {
+    public void setResultLabelText(String text) {
         resultLabel.setText(text);
         revalidate();
         repaint();
