@@ -166,7 +166,7 @@ public class FindToolBar extends JPanel {
 //        panel.add(markAllCheckBox);
 
 		wrapCheckBox = createCB("Wrap");
-		panel.add(wrapCheckBox);
+//        panel.add(wrapCheckBox);
 
 		return panel;
 
